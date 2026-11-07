@@ -1,0 +1,18 @@
+{
+  "stryker-config": {
+    "project": "Lib.csproj",
+    "test-projects": [
+      "../Lib.Tests/Lib.Tests.csproj"
+    ],
+    "test-runner": "mtp",
+    "mutation-level": "Standard",
+    "reporters": [
+      "json",
+      "html",
+      "progress"
+    ],
+    "ignore-mutations": [
+      "linq"
+    ]
+  }
+}
