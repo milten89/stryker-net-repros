@@ -1,0 +1,16 @@
+{
+  "stryker-config": {
+    "project": "Lib.csproj",
+    "test-projects": [
+      "../Lib.Tests/Lib.Tests.csproj"
+    ],
+    "test-runner": "vstest",
+    "target-framework": "net10.0",
+    "concurrency": 1,
+    "mutation-level": "Standard",
+    "reporters": [
+      "json",
+      "progress"
+    ]
+  }
+}

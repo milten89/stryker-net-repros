@@ -1,0 +1,17 @@
+{
+  "stryker-config": {
+    "project": "Lib.csproj",
+    "test-projects": [
+      "../Lib.Tests/Lib.Tests.csproj"
+    ],
+    "test-runner": "vstest",
+    "target-framework": "net472",
+    "concurrency": 1,
+    "coverage-analysis": "off",
+    "mutation-level": "Standard",
+    "reporters": [
+      "json",
+      "progress"
+    ]
+  }
+}
